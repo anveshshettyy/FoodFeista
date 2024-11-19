@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    /* background-color: #FD2C2A; */
+    background-color: #FFFAFA;
+}
+
+canvas {
+    pointer-events: none;
+}
+
+::selection {
+    background-color: transparent; /* Change background color */
+    color: #ffffff; /* Change text color */
+}
